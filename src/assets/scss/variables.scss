@@ -1,0 +1,11 @@
+$color-primary: #6457eb;
+
+@mixin gradient ($direction: "left") {
+    background: rgb(93,94,238);
+    @if $direction == "left" {
+        background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    }
+    @if $direction == "right" {
+        background-image: linear-gradient( 111.6deg, rgba(246,135,135,1) 112.7%, rgba(174,68,223,1) 27.3% );
+    }
+}
