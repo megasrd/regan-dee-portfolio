@@ -3,21 +3,84 @@
     <div class="main-section">
       <div class="name-wrapper z-90">
         <h2>Hi, I’m Regan Duthie</h2>
-        <h3>I'm a front end developer 😉 </h3>
-        <br>
-        <button class="input-button"> See My Work </button>
+        <h3>I'm a front end developer 😉</h3>
+        <br />
+        <button class="input-button"> Get started </button>
       </div>
     </div>
     <div id="particles-js" />
     <div class="section-wrapper">
       <div class="container">
-        <h4 class="mb-4">I make websites</h4>
+        <h3 class="title-sub-dark mb-4">I make websites</h3>
         <h5 class="paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec <br />
-          sollicitudin ipsum dui, et rhoncus quam vehicula non. Nunc at porta
-          <br />
-          enim, sit amet convallis diam. Nam eu justo nulla.
+          I'm primarly a front end developer that specializes in Vue.js. <br />
+          I've learned Javascript before I knew HTML and CSS. <br />
+          I provide the follwing services:
         </h5>
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides slide-style">
+              <li class="glide__slide slide-item">
+                <img
+                  class="slide-item__img"
+                  src="../assets/images/wordpress.svg"
+                />
+                <h3 class="slide-item__header">Wordpress Site Management</h3>
+                <p class="slide-item__paragraph">
+                  Update your website's content. From images, speed optimzations
+                  and plugins and better security.
+                </p>
+              </li>
+              <li class="glide__slide slide-item">
+                <img
+                  class="slide-item__img"
+                  src="../assets/images/shopping-cart.svg"
+                />
+                <h3 class="slide-item__header">E-Commerce</h3>
+                <p class="slide-item__paragraph">
+                  Does your business need a online store? From payment gateways,
+                  product templates and more.
+                </p>
+              </li>
+              <li class="glide__slide slide-item">
+                <img
+                  class="slide-item__img"
+                  src="../assets/images/analytics.svg"
+                />
+                <h3 class="slide-item__header">Analytics</h3>
+                <p class="slide-item__paragraph">
+                  Get data insights on who's visiting your website so make
+                  smarter business decisions.
+                </p>
+              </li>
+              <li class="glide__slide slide-item">
+                <img
+                  class="slide-item__img"
+                  src="../assets/images/smartphone.svg"
+                />
+                <h3 class="slide-item__header">Mobile Friendly</h3>
+                <p class="slide-item__paragraph">
+                  A responsive design makes your website accessible to all
+                  users.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              prev
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              next
+            </button>
+          </div>
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+          </div>
+        </div>
+        <button class="input-button mx-auto d-block"> Learn more </button>
       </div>
     </div>
     <!-- <div class="py-3">
@@ -65,25 +128,22 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3 class="title-sub mb-5">ABOUT ME</h3>
+            <h3 class="title-sub-dark mb-5">ABOUT ME</h3>
           </div>
           <div class="col-4"></div>
           <div class="col-8">
             <article class="about-me-section">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at
-                ex sodales, convallis leo vel, pulvinar sapien. Praesent leo
-                metus, porttitor sed mi a, sodales aliquam sem.
+                I started my journey in the development world about 8 years ago.
+                Initially I just did Photoshop poster designs in school until I
+                discovered game development. I got into 3D modelling then
+                eventually Javascript programming, which took me to the world of
+                web developmet.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at
-                ex sodales, convallis leo vel, pulvinar sapien. Praesent leo
-                metus, porttitor sed mi a, sodales aliquam sem.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at
-                ex sodales, convallis leo vel, pulvinar sapien. Praesent leo
-                metus, porttitor sed mi a, sodales aliquam sem.
+                Honestly I'm the kind that gets bored quick and absolutely dread
+                complacency. I'm always keen to learning new technologies and
+                skills. The more daunting a challange is the better for me.
               </p>
             </article>
             <div class="lang-skills-section my-5">
@@ -168,28 +228,124 @@
     </div>
     <div class="section-wrapper">
       <div class="container">
-        <h4 class="mb-4">PRICE PER PACKAGE</h4>
+        <h3 class="title-sub-dark mb-4">PRICE PER PACKAGE</h3>
+        <h5>Prices are negotiable</h5>
+        <div class="plan-wrapper">
+          <div class="plan">
+            <div class="plan__header basic">
+              <h4 class="sub-text">Lorem ipsum dolor sit amet consectetur.</h4>
+              <h2 class="plan-name">Basic</h2>
+              <!-- <h2 class="plan-price">R2500</h2> -->
+            </div>
+            <div class="plan__body basic">
+              <div class="list-item">
+                <img class="svg" src="../assets/images/check.svg" />
+                <h4 class="copy">One page</h4>
+              </div>
+              <div class="list-item">
+                <img class="svg" src="../assets/images/check.svg" />
+                <h4 class="copy">One email address</h4>
+              </div>
+              <div class="list-item">
+                <img class="svg" src="../assets/images/check.svg" />
+                <h4 class="copy">Search Engine Optimzation</h4>
+              </div>
+              <div class="list-item">
+                <img class="svg" src="../assets/images/check.svg" />
+                <h4 class="copy">Contact form included</h4>
+              </div>
+              <button class="plan__button">
+                Request quote
+              </button>          
+            </div>
+          </div>
+          <div class="plan">
+            <div class="plan__header standard">
+              <h4 class="sub-text">Lorem ipsum dolor sit amet consectetur.</h4>
+              <h2 class="plan-name">Standard</h2>
+              <!-- <h2 class="plan-price">R4000</h2> -->
+            </div>
+            <div class="plan__body standard">
+              <div class="list-item">
+                <img class="svg" src="../assets/images/check.svg" />
+                <h4 class="copy">2 to 4 pages</h4>
+              </div>
+              <div class="list-item">
+                <img class="svg" src="../assets/images/check.svg" />
+                <h4 class="copy">Three email addresses</h4>
+              </div>
+              <div class="list-item">
+                <img class="svg" src="../assets/images/check.svg" />
+                <h4 class="copy">Lorem ipsum yada yada yada</h4>
+              </div>
+              <div class="list-item">
+                <img class="svg" src="../assets/images/check.svg" />
+                <h4 class="copy">Lorem ipsum yada yada yada</h4>
+              </div>
+              <button class="plan__button">
+                Request quote
+              </button>              
+            </div>
+          </div>
+          <div class="plan">
+            <div class="plan__header premium">
+              <h4 class="sub-text">Lorem ipsum dolor sit amet consectetur.</h4>
+              <h2 class="plan-name">Premium</h2>
+              <!-- <h2 class="plan-price">R8000</h2> -->
+            </div>
+            <div class="plan__body premium">
+              <div class="list-item">
+                <img class="svg" src="../assets/images/check.svg" />
+                <h4 class="copy">Lorem ipsum yada yada yada</h4>
+              </div>
+              <div class="list-item">
+                <img class="svg" src="../assets/images/check.svg" />
+                <h4 class="copy">Lorem ipsum yada yada yada</h4>
+              </div>
+              <div class="list-item">
+                <img class="svg" src="../assets/images/check.svg" />
+                <h4 class="copy">Lorem ipsum yada yada yada</h4>
+              </div>
+              <div class="list-item">
+                <img class="svg" src="../assets/images/check.svg" />
+                <h4 class="copy">Lorem ipsum yada yada yada</h4>
+              </div>
+              <button class="plan__button">
+              Request quote
+            </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="secondary section-wrapper">
       <div class="container contact-me">
         <div class="row justify-content-center">
           <div class="col-12">
-            <h3 class="title-sub mb-4">CONTACT ME</h3>
+            <h3 class="title-sub-dark mb-4">CONTACT ME</h3>
             <p class="mb-5">Got a question? Fill in the form below.</p>
           </div>
           <div class="col-6">
             <input
+              v-model="name"
               class="contact-input mb-3"
               type="text"
               placeholder="Your name"
             />
+            <div v-if="$v.name.error" class="error-msg mb-3"> Please fix error </div>
+            <select v-model="type" class="contact-input mb-3">
+              <option> Option </option>
+              <option> Option </option>
+              <option> Option </option>
+            </select>
             <input
+              v-model="email"
               class="contact-input mb-3"
               type="email"
               placeholder="Your email address"
             />
             <textarea
+              v-model="msg"
               rows="8"
               class="textarea-input mb-4"
               type="text"
@@ -197,6 +353,7 @@
             >
             </textarea>
             <input
+              @click.prevent="submit()"
               class="input-button mx-auto d-block"
               value="Submit"
               type="button"
@@ -210,6 +367,155 @@
 <style lang="scss">
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/components.scss";
+.plan-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  margin: 5rem 0;
+}
+.plan {
+    -webkit-box-shadow: -5px 2px 23px 10px rgba(179, 179, 179, 0.5);
+    -moz-box-shadow: -5px 2px 23px 10px rgba(179, 179, 179, 0.5);
+    box-shadow: -5px 2px 23px 10px rgba(179, 179, 179, 0.5);
+    overflow: hidden;
+    border-radius: 24px;  
+  &__header {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    padding: 2.5rem 2.8rem;
+    .sub-text {
+      text-align: center;
+      color: #fff;
+      font-size: 14px;
+      margin-bottom: 21px;
+    }
+    .plan-name {
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: bold;
+      font-size: 38px;
+    }
+    .plan-price {
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      font-size: 55px;
+    }
+  }
+  &__header.basic {
+    background: #ff7da1;
+  }
+  &__header.standard {
+    background: #43b028;
+  }
+  &__header.premium {
+    background: #5cc7ee;
+  }
+  &__body {
+    -webkit-box-shadow: -5px 2px 23px 10px rgba(179, 179, 179, 0.5);
+    -moz-box-shadow: -5px 2px 23px 10px rgba(179, 179, 179, 0.5);
+    box-shadow: -5px 2px 23px 10px rgba(179, 179, 179, 0.5);
+    background: #fff;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    .list-item {
+      margin: 1rem 0;
+      .svg {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-right: 1rem;
+      }
+      .copy {
+        font-size: 15px;
+        color: gray;
+      }
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  }
+  &__body.basic {
+    .plan__button {
+      background: #ff7da1;
+    }
+  }  
+  &__body.standard {
+    .plan__button {
+      background: #43b028;
+    }
+  }   
+  &__body.premium {
+    .plan__button {
+       background: #5cc7ee;
+    }
+  }      
+  .plan__button {
+    @extend %ripple-fx;
+    font-weight: 500;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 32px;
+    margin: 40px auto 0 auto;
+    display: block;
+    transition: all 0.2s ease-in;
+    outline: none;
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      transition: all 0.2s ease-out;
+   }
+  }
+}
+.glide {
+  &__arrows {
+    width: 100%;
+    top: 50px;
+    position: relative;
+  }
+  &__arrow {
+    background: #272727;
+  }
+  &__bullet {
+    background-color: #272727;
+  }
+  &__bullet--active {
+    background-color: #6457eb;
+  }
+  &__bullets {
+    position: relative;
+    margin-top: 5rem;
+  }
+  margin: 4rem 0;
+}
+.slide-style {
+  .slide-item {
+    text-align: center;
+    &__img {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 20px;
+    }
+    &__header {
+      color: $color-primary;
+      font: {
+        size: 15px;
+        weight: bold;
+      }
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    &__paragraph {
+      font: {
+        size: 15px;
+      }
+    }
+  }
+}
 #particles-js {
   width: 100vw;
   height: 100vh;
@@ -241,13 +547,24 @@ canvas.particles-js-canvas-el {
       transition: border 0.3s ease-out;
     }
     &:active {
-      border-color: #424242;
+      border-color: #000000;
+      border-width: 2px;
       transition: border 0.3s ease-out;
     }
   }
   .contact-input {
     @extend %input-styling;
-    height: 50px;
+    height: 60px;
+  }
+  .error-msg {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    background: #e61f1f;
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 12px;
   }
   .textarea-input {
     @extend %input-styling;
@@ -273,12 +590,20 @@ canvas.particles-js-canvas-el {
 .inset-section {
   margin-top: -170px;
 }
-.title-sub {
-  color: $color-primary;
+%title-sub {
   text-align: center;
+  text-transform: uppercase;
   font-weight: 600;
   font-size: 1.5rem;
   letter-spacing: 4px;
+}
+.title-sub-dark {
+  color: $color-primary;
+  @extend %title-sub;
+}
+.title-sub-white {
+  color: #fff;
+  @extend %title-sub;
 }
 .section-wrapper {
   background: white;
@@ -301,9 +626,15 @@ canvas.particles-js-canvas-el {
     font-size: 1.6rem;
     color: $color-primary;
   }
+  h5 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4d4d4d;
+  }
   .paragraph {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
   }
 }
@@ -318,7 +649,7 @@ canvas.particles-js-canvas-el {
   }
   .paragraph {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
   }
 }
@@ -362,16 +693,53 @@ canvas.particles-js-canvas-el {
 }
 </style>
 <script>
+import Glide from "@glidejs/glide";
+import { required, minLength, alphaNum, email } from "vuelidate/lib/validators";
 // @ is an alias to /src
 export default {
   name: "Home",
+  data() {
+    return {
+      name: "",
+      type: "",
+      email: "",
+      msg: ""
+    };
+  },
+  validations: {
+    name: {
+      required,
+      alphaNum,
+      minLength: minLength(2)
+    },
+    type: {
+      required
+    },
+    email: {
+      required,
+      email
+    },
+    msg: {
+      required,
+      minLength: minLength(2)
+    }
+  },
   mounted() {
+    new Glide(".glide", {
+      type: "carousel",
+      startAt: 0,
+      perView: 3,
+      gap: 80
+    }).mount();
     require("particles.js");
     this.$nextTick(() => {
       this.initParticlesJS();
     });
   },
   methods: {
+    submit() {
+      this.$v.touch();
+    },
     initParticlesJS() {
       /* eslint-disable */
       particlesJS('particles-js', {

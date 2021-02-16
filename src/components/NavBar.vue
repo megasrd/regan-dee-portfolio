@@ -14,12 +14,13 @@
 
 .nav-bar {
   position: absolute;
-  top: 0;
+  bottom: 0;
   width: 100%;
+  height: 100px;
   display: block;
-  background: alpha;
-  padding: 1rem 0;
-  margin: 1rem 0;
+  background: #fff;
+  padding: 2rem;
+  margin-bottom: -20px;
   .logo {
     display:block;
     text-align: left;
