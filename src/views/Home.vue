@@ -227,6 +227,15 @@
     </div>
     <div class="section-wrapper">
       <div class="container">
+        <div class="">
+          <h4 class="mt-5">CREATE YOUR OWN QUOTE!</h4>
+          <h5>
+            Let me see what your website needs in a few quick and easy clicks.
+          </h5>
+          <router-link to="/create-a-quote">
+            <input class="caq-btn" type="button" value="Create My Quote" />
+          </router-link>
+        </div>
         <h4 class="mb-4">PRICE PER PACKAGE</h4>
         <h5>Prices are negotiable</h5>
         <div class="plan-wrapper">
@@ -234,7 +243,6 @@
             <div class="plan__header basic">
               <h4 class="sub-text">Lorem ipsum dolor sit amet consectetur.</h4>
               <h2 class="plan-name">Basic</h2>
-              <h2 class="plan-price">R2500</h2>
             </div>
             <div class="plan__body">
               <div class="list-item">
@@ -254,15 +262,16 @@
                 <h4 class="copy">Contact form included</h4>
               </div>
             </div>
-            <button class="plan__button">
-              Get started
-            </button>
+            <router-link to="/create-a-quote">
+              <button class="plan__button">
+                Get started
+              </button>
+            </router-link>
           </div>
           <div class="plan">
             <div class="plan__header standard">
               <h4 class="sub-text">Lorem ipsum dolor sit amet consectetur.</h4>
               <h2 class="plan-name">Standard</h2>
-              <h2 class="plan-price">R4000</h2>
             </div>
             <div class="plan__body">
               <div class="list-item">
@@ -282,15 +291,16 @@
                 <h4 class="copy">Lorem ipsum yada yada yada</h4>
               </div>
             </div>
-            <button class="plan__button">
-              Get started
-            </button>
+            <router-link to="/create-a-quote">
+              <button class="plan__button">
+                Get started
+              </button>
+            </router-link>
           </div>
           <div class="plan">
             <div class="plan__header premium">
               <h4 class="sub-text">Lorem ipsum dolor sit amet consectetur.</h4>
               <h2 class="plan-name">Premium</h2>
-              <h2 class="plan-price">R8000</h2>
             </div>
             <div class="plan__body">
               <div class="list-item">
@@ -310,9 +320,11 @@
                 <h4 class="copy">Lorem ipsum yada yada yada</h4>
               </div>
             </div>
-            <button class="plan__button">
-              Get started
-            </button>
+            <router-link to="/create-a-quote">
+              <button class="plan__button">
+                Get started
+              </button>
+            </router-link>
           </div>
         </div>
       </div>
@@ -361,9 +373,28 @@
     </div>
   </div>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../assets/scss/variables.scss";
 @import "../assets/scss/components.scss";
+.caq-btn {
+  margin: 3rem auto 12rem auto;
+  padding: 1rem 3rem;
+  width: 400px;
+  display: block;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background: #6457eb;
+  transition: ease-in 0.2s all;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    transition: ease-out 0.2s all;
+    background: #4f45b8;
+  }
+}
 .plan-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

@@ -1,5 +1,5 @@
 <template>
-  <div class="nav-bar">
+  <div v-if="currentRoute === 'create-a-quote'" class="nav-bar">
     <div class="container">
       <div class="menu">
         <span class="logo">
@@ -14,8 +14,6 @@
 
 .nav-bar {
   background: #fff;
-  position: absolute;
-  top: 0;
   width: 100%;
   display: block;
   background: alpha;
@@ -38,5 +36,13 @@
 }
 </style>
 <script>
-export default {};
+export default {
+  computed: {
+    currentRoute: {
+      get() {
+        return this.$route.path;
+      }
+    }
+  }
+};
 </script>
