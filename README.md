@@ -1,4 +1,4 @@
-# my-website
+# regan-designs
 
 ## Project setup
 ```

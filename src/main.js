@@ -1,16 +1,17 @@
-import Vue from "vue";
-import App from "./App.vue";
-import router from "./router";
-import store from "./store";
-import Vuelidate from 'vuelidate';
-import "bootstrap";
+import Vue from 'vue'
+import Vuelidate from 'vuelidate'
+import App from './App.vue'
+import router from './router'
+import './assets/tailwind.css'
+import anime from 'animejs';
 
-Vue.use(Vuelidate);
-Vue.config.productionTip = false;
+Vue.use(Vuelidate)
+
+
+Vue.config.productionTip = false
+
 new Vue({
+  anime,
   router,
-  store,
-  render: function(h) {
-    return h(App);
-  }
-}).$mount("#app");
+  render: function (h) { return h(App) }
+}).$mount('#app')
