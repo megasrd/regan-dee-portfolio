@@ -7,7 +7,7 @@
         <div>       
           <img class="mx-auto md:w-40 w-24 mb-8" src="../assets/logo-black.svg"/>
           <h2 class="text-gray-900 font-bold text-center md:text-5xl text-3xl mb-5"> Front-End Web Developer </h2>
-          <h2 class="text-gray-900 font-light text-center text-2xl"> I build websites & user interfaces </h2>
+          <h2 class="text-gray-900 font-light text-center text-2xl"> Websites | Digital Solutions </h2>
         </div>
       </div>
     </div>
@@ -41,7 +41,7 @@
     <div class="col-span-12 mb-16">
       <span class="text-center">
         <h2 class="text-gray-900  text-3xl font-bold mb-5"> My Recent Work </h2>
-        <p class="text-gray-700"> Here are a few design projects I've worked on recently. Want to see more? Email me. </p>
+        <p class="text-gray-700"> Here are a few design projects I've worked on recently. </p>
       </span>
     </div>
     <div class="lg:col-span-4 md:col-span-6 col-span-12">
@@ -74,8 +74,10 @@
       
       </div>      
     </div>     
-    <div class="col-span-12 mt-8 mb-12">
-      <input class="font-semibold mx-auto block px-10 py-3 rounded-full bg-white border-2 border-gray-900 text-gray-900 hover:text-white hover:bg-gray-900 transition-all hover:transition-all cursor-pointer" value="Check out my LinkedIn" type="button">
+    <div class="text-center col-span-12 mt-8 mb-12">
+      <a class="font-semibold mx-auto inline-block px-10 py-3 rounded-full bg-white border-2 border-gray-900 text-gray-900 hover:text-white hover:bg-gray-900 transition-all hover:transition-all cursor-pointer" href="https://www.linkedin.com/in/regan-duthie-683903133/" target="_blank">
+        Check out my LinkedIn
+      </a>
     </div>       
   </div>
   <div class="bg-white w-full py-32 section">
