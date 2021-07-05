@@ -18,7 +18,7 @@
       <p class="text-gray-300 md:text-base text-lg"> I started my journey with game development which led me into the web development industry. I've been doing this for more than 5 years now, from helping out local business' with websites to contract work for large companies. I'm a humble developer that's always looking to improve my skills. </p>
     </div>
   </div>
-  <div class="container md:pb-32 pb-12 -mt-24 lg:px-0 lg:px-0 md:px-5 px-6">
+  <div class="container md:pb-32 pb-12 -mt-24 lg:px-0 md:px-5 px-6">
       <div class="bg-white text-center text-gray-900 mx-auto grid grid-cols-12 mb-12 rounded-3xl shadow-xl">
         <div class="md:col-span-4 col-span-12 px-8 pb-12 pt-12">
           <img class="mx-auto w-16 mb-8" src="../assets/images/online-shop.png"/>
@@ -41,39 +41,51 @@
     <div class="col-span-12 mb-16">
       <span class="text-center">
         <h2 class="text-gray-900  text-3xl font-bold mb-5"> My Recent Work </h2>
-        <p class="text-gray-700"> Here are a few design projects I've worked on recently. </p>
+        <p class="text-gray-700"> Here are a few websites/projects I've worked on recently. </p>
       </span>
     </div>
     <div class="lg:col-span-4 md:col-span-6 col-span-12">
-      <div class="cursor-pointer h-72 w-full rounded-xl bg-gray-300 flex items-center">
-      
-      </div>
+      <figure class="project-wrapper h-64">
+        <img class="cursor-pointer h-full w-full rounded-xl flex items-center object-cover" src="../assets/images/portfolio/straussconcepts.png" alt="straussconcepts portfolio"/>
+        <figcaption> 
+          <div class="wrapper">
+            <h3 class="text-center text-white font-semibold text-3xl"> Strauss Concepts </h3>
+            <a class="block mt-3" target="_blank" href="https://straussconcepts.co.za/">
+              <input  value="Check it out" type="button" class="font-semibold mx-auto block px-10 py-3 rounded-full border-2 bg-transparent border-white text-white hover:text-gray-900 hover:bg-white transition-all hover:transition-all cursor-pointer" />
+            </a>
+          </div>
+        </figcaption>
+            <div class="bg"/>        
+      </figure>
     </div>
     <div class="lg:col-span-4 md:col-span-6 col-span-12">
-      <div class="cursor-pointer h-72 w-full rounded-xl bg-gray-500 flex items-center">
-      
-      </div>      
+      <figure class="project-wrapper h-64">
+        <img class="cursor-pointer h-full w-full rounded-xl flex items-center object-cover" src="../assets/images/portfolio/tritansecurity.png" alt="tritan security portfolio"/>
+        <figcaption> 
+          <div class="wrapper">
+            <h3 class="text-center text-white font-semibold text-3xl"> Tritan Security</h3>
+            <a class="block mt-3" target="_blank" href="https://www.tritansecurity.co.za/">
+              <input  value="Check it out" type="button" class="font-semibold mx-auto block px-10 py-3 rounded-full border-2 bg-transparent border-white text-white hover:text-gray-900 hover:bg-white transition-all hover:transition-all cursor-pointer" />
+            </a>
+          </div>
+        </figcaption>
+            <div class="bg"/>        
+      </figure>
     </div>
     <div class="lg:col-span-4 md:col-span-6 col-span-12">
-      <div class="cursor-pointer h-72 w-full rounded-xl bg-gray-800 flex items-center">
-      
-      </div>      
+      <figure class="project-wrapper h-64">
+        <img class="cursor-pointer h-full w-full rounded-xl flex items-center object-cover" src="../assets/images/portfolio/jbgetfit.jpeg" alt="jbgetfit portfolio"/>
+        <figcaption> 
+          <div class="wrapper">
+            <h3 class="text-center text-white font-semibold text-3xl"> JB Get Fit </h3>
+            <a class="block mt-3" target="_blank" href="http://jbgetfit.com/">
+              <input  value="Check it out" type="button" class="font-semibold mx-auto block px-10 py-3 rounded-full border-2 bg-transparent border-white text-white hover:text-gray-900 hover:bg-white transition-all hover:transition-all cursor-pointer" />
+            </a>
+          </div>
+        </figcaption>
+            <div class="bg"/>        
+      </figure>
     </div>   
-    <div class="lg:col-span-4 md:col-span-6 col-span-12">
-      <div class="cursor-pointer h-72 w-full rounded-xl bg-gray-800 flex items-center">
-      
-      </div>
-    </div>
-    <div class="lg:col-span-4 md:col-span-6 col-span-12">
-      <div class="cursor-pointer h-72 w-full rounded-xl bg-gray-700 flex items-center">
-      
-      </div>      
-    </div>
-    <div class="lg:col-span-4 md:col-span-6 col-span-12">
-      <div class="cursor-pointer h-72 w-full rounded-xl bg-gray-400 flex items-center">
-      
-      </div>      
-    </div>     
     <div class="text-center col-span-12 mt-8 mb-12">
       <a class="font-semibold mx-auto inline-block px-10 py-3 rounded-full bg-white border-2 border-gray-900 text-gray-900 hover:text-white hover:bg-gray-900 transition-all hover:transition-all cursor-pointer" href="https://www.linkedin.com/in/regan-duthie-683903133/" target="_blank">
         Check out my LinkedIn
@@ -107,6 +119,52 @@
 </span>
 </template>
 <style lang="scss" scoped>
+.project-wrapper {
+  cursor: pointer;
+  border-radius: 0.75rem;
+  position: relative;
+  overflow: hidden;
+  border-color: transparent;
+  border-width: 2px;
+  transition: all 0.3s ease-in;  
+  &:hover {
+    transition: all 0.3s ease-out;  
+    border-color: red;
+  }  
+  .bg {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    z-index: 8999; 
+  }
+  figcaption {
+    z-index: 9000;     
+    .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-flow: column;
+      justify-items: center;
+      justify-content: center;
+      padding: 4rem 1rem;
+      height: 100%;
+    }
+  }
+  figcaption, .bg {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-out;    
+  }
+  &:hover {
+    figcaption, .bg {
+      opacity: 1;
+      transition: all 0.3s ease-in;    
+    }
+  }
+}
 .section {
     min-height: 600px;
   @media (min-width: theme('screens.lg')) {
