@@ -2,13 +2,13 @@
 <span>
   <div class="overflow-hidden w-full">
   <particlesJS class="w-full h-screen absolute opacity-40"/>
-    <div class="bg-white lg:h-screen h-half w-full">
+    <div class="bg-white md:h-screen h-half w-full">
       <div class="container flex items-center justify-center h-full">
         <div>       
           <img class="mx-auto md:w-40 w-24 mb-8" src="../assets/logo-black.svg"/>
           <h2 class="text-gray-900 font-bold text-center md:text-5xl text-3xl mb-5"> Front-End Web Developer </h2>
           <h2 class="text-gray-900 font-light text-center text-2xl"> Websites | Digital Solutions </h2>
-          <a href="#about-me">
+          <a class="md:block hidden" href="#about-me">
             <div class='mouse-container m-5'>
               <div class='mouse'>
                 <span class='scroll-down'></span>
@@ -23,48 +23,66 @@
   <div id="about-me" class="section bg-gray-900 md:py-20 w-full p-4">
     <div class="text-white container">
       <img class="h-48 w-48 rounded-full mx-auto mb-16" src="../assets/images/me.jpeg"/>
-      <div class="grid grid-cols-12 gap-12 mt-8">
-        <div class="col-span-6">
-          <h3 class="font-bold text-6xl mb-8"> Hi, I'm Regan. </h3>
-          <p class="text-gray-300 mb-5"> I started my journey with game development which led me into the web development industry. I've been doing this for more than 5 years now, from helping out local business' with websites to contract work for large companies. I'm a humble developer that's always looking to improve my skills. </p>
-          <p class="text-gray-300"> Visit my <a class="underline text-yellow-400 font-semibold" target="_blank" href="https://www.linkedin.com/in/regan-duthie-683903133/"> Linkedin</a> profile for more information. </p>
+      <div class="grid grid-cols-12 md:gap-12 mt-8">
+        <div class="md:col-span-6 col-span-12">
+          <h3 class="font-bold md:text-6xl text-4xl mb-8"> Hi, I'm Regan. </h3>
+          <p class="text-gray-200 mb-5"> I started my journey with game development which led me into the web development industry. I've been doing this for more than 5 years now, from helping out local business' with websites to contract work for large companies. I'm a humble developer that's always looking to improve my skills. </p>
+          <p class="text-gray-200"> Visit my <a class="underline text-yellow-400 font-semibold" target="_blank" href="https://www.linkedin.com/in/regan-duthie-683903133/"> Linkedin</a> profile for more information. </p>
           <h4 class="font-bold text-2xl mt-12"> Dev Tools I Use </h4>
+          <div class="mt-6 grid items-start lg:grid-cols-6 md:grid-cols-4 grid-cols-12 text-gray-200">
+            <div class="md:col-span-1 col-span-3">
+              <img class="w-12 mb-3 mx-auto" src="../assets/tools/vscode.svg"/>
+              <p class="font-semibold text-sm text-center "> VS Code </p>
+            </div>
+            <div class="md:col-span-1 col-span-3">
+              <img class="w-12 mb-3 mx-auto" src="../assets/tools/git.svg"/>
+              <p class="font-semibold text-sm text-center "> Git </p>
+            </div>          
+            <div class="md:col-span-1 col-span-3">
+              <img class="w-12 mb-3 mx-auto" src="../assets/tools/slack.svg"/>
+              <p class="font-semibold text-sm text-center "> Slack </p>
+            </div>     
+            <div class="md:col-span-1 col-span-3">
+              <img class="w-12 mb-3 mx-auto" src="../assets/tools/adobe-illustrator.svg"/>
+              <p class="font-semibold text-sm text-center "> Adobe Illustrator </p>
+            </div>                     
+          </div>
         </div>
-        <div class="col-span-6">
-          <h3 class="font-bold text-3xl mb-14"> What I Use </h3>
+        <div class="md:col-span-6 col-span-12">
+          <h3 class="font-bold text-2xl md:mt-24 md:mb-5 mt-12 mb-5"> What I Use </h3>
           <div class="mb-6">
-            <p class="mb-1"> HTML5 </p>
+            <p class="mb-1 text-gray-200"> HTML5 </p>
             <div class="h-1 bg-gray-700">
               <div style="width:90%" class="h-full bg-yellow-400"/>
             </div>
           </div>
           <div class="mb-6">
-            <p class="mb-1"> CSS / SASS </p>
+            <p class="mb-1 text-gray-200"> CSS / SASS </p>
             <div class="h-1 bg-gray-700">
               <div style="width:90%" class="h-full bg-blue-500"/>
             </div>
           </div>
           <div class="mb-6">
-            <p class="mb-1"> Tailwind </p>
+            <p class="mb-1 text-gray-200"> Tailwind </p>
             <div class="h-1 bg-gray-700">
               <div style="width:90%" class="h-full bg-blue-500"/>
             </div>
           </div>                   
           <div class="mb-6">
-            <p class="mb-1"> Javascript </p>
+            <p class="mb-1 text-gray-200"> Javascript </p>
             <div class="h-1 bg-gray-700">
               <div style="width:90%" class="h-full bg-purple-500"/>
             </div>
           </div>
           <div class="mb-6">
-            <p class="mb-1"> Vue.js </p>
+            <p class="mb-1 text-gray-200"> Vue.js </p>
             <div class="h-1 bg-gray-700">
               <div style="width:90%" class="h-full bg-green-400"/>
             </div>
           </div>                            
         </div>
       </div>    
-      <h3 class="text-center text-4xl font-bold mt-24 mb-12"> Services I Offer </h3>
+      <h3 class="text-center text-4xl font-bold md:mt-24 md:mb-16 mt-16 mb-32"> Services I Offer </h3>
     </div>
   </div>
   <div class="container md:pb-24 pb-12 -mt-24 lg:px-0 md:px-5 px-6">
@@ -193,6 +211,12 @@ div.mouse-container{
   right: 0;
   bottom: 0;
   cursor: pointer;
+  opacity: 1;
+  transition: opacity 1s ease-in;
+  &:hover {
+    transition: opacity 1s ease-out;
+    opacity: 0.5;
+  }  
 }
 div.mouse{
   position:relative;
@@ -207,7 +231,7 @@ div.mouse{
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
-  animation-fill-mode: backwards;  
+  animation-fill-mode: backwards;    
   
   span.scroll-down{
     display:block;
@@ -295,6 +319,7 @@ div.mouse{
 }
 </style>
 <script>
+// const nodemailer = require("nodemailer");
 import {
   required,
   alphaNum,
@@ -325,7 +350,35 @@ export default {
     }
   },
   methods: {
+    // async sendMail() {
+    //   let testAccount = await nodemailer.createTestAccount();
+    //   let transporter = nodemailer.createTransport({
+    //     host: "smtp.ethereal.email",
+    //     port: 587,
+    //     secure: false, // true for 465, false for other ports
+    //     auth: {
+    //       user: testAccount.user, // generated ethereal user
+    //       pass: testAccount.pass, // generated ethereal password
+    //     },
+    //   });      
+    //   // send mail with defined transport object
+    //     let info = await transporter.sendMail({
+    //       from: '"Fred Foo 👻" <foo@example.com>', // sender address
+    //       to: "bar@example.com, baz@example.com", // list of receivers
+    //       subject: "Hello ✔", // Subject line
+    //       text: "Hello world?", // plain text body
+    //       html: "<b>Hello world?</b>", // html body
+    //     });
+
+    //     console.log("Message sent: %s", info.messageId);
+    //     // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+
+    //     // Preview only available when sending through an Ethereal account
+    //     console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
+    //     // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...      
+    // },
     submit() {
+      this.sendMail().catch(console.error);
       this.$v.$touch()
     }
   }

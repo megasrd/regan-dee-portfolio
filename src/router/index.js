@@ -8,7 +8,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
   },
   {
     path: '/about',
@@ -27,5 +27,12 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
+
+router.afterEach(() => {
+  Vue.nextTick(() => {
+      document.title = 'Regan Duthie - Front End Developer';
+  });
+});
+
 
 export default router
