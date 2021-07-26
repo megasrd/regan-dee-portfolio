@@ -8,17 +8,66 @@
           <img class="mx-auto md:w-40 w-24 mb-8" src="../assets/logo-black.svg"/>
           <h2 class="text-gray-900 font-bold text-center md:text-5xl text-3xl mb-5"> Front-End Web Developer </h2>
           <h2 class="text-gray-900 font-light text-center text-2xl"> Websites | Digital Solutions </h2>
+          <a href="#about-me">
+            <div class='mouse-container m-5'>
+              <div class='mouse'>
+                <span class='scroll-down'></span>
+              </div>
+            </div>          
+            <p class="mx-auto absolute left-0 right-0 bottom-0 m-3 text-center"> Scroll down </p>
+          </a>
         </div>
       </div>
     </div>
   </div>
-  <div class="section bg-gray-800 md:py-40 py-24 w-full h-64 p-4">
-    <div class="lg:w-7/12 md:w-10/12 mx-auto text-center">
-      <h2 class="text-white text-3xl font-bold mb-8"> Hi I'm Regan. <br class="md:hidden block" /> Please to meet you. </h2>
-      <p class="text-gray-300 md:text-base text-lg"> I started my journey with game development which led me into the web development industry. I've been doing this for more than 5 years now, from helping out local business' with websites to contract work for large companies. I'm a humble developer that's always looking to improve my skills. </p>
+  <div id="about-me" class="section bg-gray-900 md:py-20 w-full p-4">
+    <div class="text-white container">
+      <img class="h-48 w-48 rounded-full mx-auto mb-16" src="../assets/images/me.jpeg"/>
+      <div class="grid grid-cols-12 gap-12 mt-8">
+        <div class="col-span-6">
+          <h3 class="font-bold text-6xl mb-8"> Hi, I'm Regan. </h3>
+          <p class="text-gray-300 mb-5"> I started my journey with game development which led me into the web development industry. I've been doing this for more than 5 years now, from helping out local business' with websites to contract work for large companies. I'm a humble developer that's always looking to improve my skills. </p>
+          <p class="text-gray-300"> Visit my <a class="underline text-yellow-400 font-semibold" target="_blank" href="https://www.linkedin.com/in/regan-duthie-683903133/"> Linkedin</a> profile for more information. </p>
+          <h4 class="font-bold text-2xl mt-12"> Dev Tools I Use </h4>
+        </div>
+        <div class="col-span-6">
+          <h3 class="font-bold text-3xl mb-14"> What I Use </h3>
+          <div class="mb-6">
+            <p class="mb-1"> HTML5 </p>
+            <div class="h-1 bg-gray-700">
+              <div style="width:90%" class="h-full bg-yellow-400"/>
+            </div>
+          </div>
+          <div class="mb-6">
+            <p class="mb-1"> CSS / SASS </p>
+            <div class="h-1 bg-gray-700">
+              <div style="width:90%" class="h-full bg-blue-500"/>
+            </div>
+          </div>
+          <div class="mb-6">
+            <p class="mb-1"> Tailwind </p>
+            <div class="h-1 bg-gray-700">
+              <div style="width:90%" class="h-full bg-blue-500"/>
+            </div>
+          </div>                   
+          <div class="mb-6">
+            <p class="mb-1"> Javascript </p>
+            <div class="h-1 bg-gray-700">
+              <div style="width:90%" class="h-full bg-purple-500"/>
+            </div>
+          </div>
+          <div class="mb-6">
+            <p class="mb-1"> Vue.js </p>
+            <div class="h-1 bg-gray-700">
+              <div style="width:90%" class="h-full bg-green-400"/>
+            </div>
+          </div>                            
+        </div>
+      </div>    
+      <h3 class="text-center text-4xl font-bold mt-24 mb-12"> Services I Offer </h3>
     </div>
   </div>
-  <div class="container md:pb-32 pb-12 -mt-24 lg:px-0 md:px-5 px-6">
+  <div class="container md:pb-24 pb-12 -mt-24 lg:px-0 md:px-5 px-6">
       <div class="bg-white text-center text-gray-900 mx-auto grid grid-cols-12 mb-12 rounded-3xl shadow-xl">
         <div class="md:col-span-4 col-span-12 px-8 pb-12 pt-12">
           <img class="mx-auto w-16 mb-8" src="../assets/images/online-shop.png"/>
@@ -40,7 +89,7 @@
   <div class="container grid grid-cols-12 gap-6 lg:px-0 md:px-5 px-6">
     <div class="col-span-12 mb-16">
       <span class="text-center">
-        <h2 class="text-gray-900  text-3xl font-bold mb-5"> My Recent Work </h2>
+        <h2 class="text-gray-900 text-4xl font-bold mb-5"> My Recent Work </h2>
         <p class="text-gray-700"> Here are a few websites/projects I've worked on recently. </p>
       </span>
     </div>
@@ -95,7 +144,7 @@
   <div class="bg-white w-full py-32 section">
     <div class="container grid grid-cols-12 lg:px-0 md:px-5 px-6">
       <div class="text-center col-span-12 mb-10">
-        <h2 class="text-gray-900  text-3xl font-bold mb-3"> Contact Me</h2>
+        <h2 class="text-gray-900 text-4xl font-bold mb-3"> Contact Me</h2>
         <p class="text-gray-700"> If you have any questions fill out the form below </p>
       </div>      
       <div class="lg:w-5/12 col-span-12 mx-auto">
@@ -109,16 +158,76 @@
       </div>
     </div>
   </div>
-  <div class="bg-gray-800 w-full py-16">
+  <div class="bg-black w-full py-8">
     <div class="container grid grid-cols-12 lg:px-0 md:px-5 px-6">
-      <div class="col-span-12">
-        <img class="mx-auto w-20 mb-8" src="../assets/logo-white.svg"/>
+      <div class="col-span-12 text-center">
+        <img class="mx-auto w-14 mb-4" src="../assets/logo-white.svg"/>
+        <p class="text-sm text-gray-400"> Regan Duthie | Created Using Vue & Tailwind </p>
       </div>
     </div>
   </div>  
 </span>
 </template>
 <style lang="scss" scoped>
+@-webkit-keyframes scroll-inner {
+    from {margin-top: 15%;}
+    to {margin-top: 50%;}
+}
+@keyframes scroll-inner {
+    from {margin-top: 15%;}
+    to {margin-top: 50%;}
+}
+@-webkit-keyframes scroll-mouse {
+    from {margin-top: 0;}
+    to {margin-top: 15px;}
+}
+@keyframes scroll-mouse {
+    from {margin-top: 0;}
+    to {margin-top: 15px;}
+}
+
+div.mouse-container{
+  position: absolute;
+  height:100px;  
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+div.mouse{
+  position:relative;
+  margin:0 auto;
+  display:block;
+  width:40px;
+  height:60px;
+  border: solid 2px rgb(0, 0, 0);
+  border-radius: 25px;
+  -webkit-animation: scroll-mouse 1.5s; 
+  animation: scroll-mouse 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: backwards;  
+  
+  span.scroll-down{
+    display:block;
+    width:10px;
+    height:10px;
+    background:rgb(0, 0, 0);
+    border-radius:50%;
+    margin:15% auto auto auto;
+    
+    -webkit-animation: scroll-inner 1.5s; 
+    animation: scroll-inner 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function:ease;
+    animation-timing-function:ease;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: backwards;     
+      
+  }
+}
 .project-wrapper {
   cursor: pointer;
   border-radius: 0.75rem;
@@ -166,14 +275,11 @@
   }
 }
 .section {
-    min-height: 600px;
-  @media (min-width: theme('screens.lg')) {
-    min-height: 510px;    
-  }
+    min-height: 650px;
 }
 .form {
   &__item {
-    @apply border border-gray-600 text-gray-800 px-3 rounded mb-3;
+    @apply border-2 border-gray-600 text-gray-800 px-3 rounded mb-3;
     
     transition: 0.3s ease-in-out all;
     width: 100%;

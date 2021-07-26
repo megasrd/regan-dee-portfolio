@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div v-if="this.$route.path !== '/quote'" class="nav-bar flex items-center justify-between">
+    <!-- <div v-if="this.$route.path !== '/quote'" class="nav-bar flex items-center justify-between">
       <button @click="isOpen =! isOpen" class="menu-btn" :class="isOpen ? 'open text-white' : 'text-gray-900 '" aria-label="Toggle Navigation">
         <svg viewBox="-50 -40 100 80" width="50" height="40">
           <defs>
@@ -30,7 +30,7 @@
           <span class="px-4 py-3 rounded-full border-2 border-gray-900 font-semibold text-gray-900 cursor-pointer"> How can I help? </span>
         </router-link>
       </div>
-    </div>
+    </div> -->
     <div v-if="isOpen" class="fixed left-0 top-0 md:w-1/2 w-screen h-screen bg-gray-900 z-50">
       <div class="container">
 
@@ -49,6 +49,11 @@ export default {
 }
 </script>
 <style lang="scss">
+
+html, body {
+  scroll-behavior: smooth;
+}
+
 //Webkit Scrollbar
 ::-webkit-scrollbar {
   -webkit-appearance: none;
