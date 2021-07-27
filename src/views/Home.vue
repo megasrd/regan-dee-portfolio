@@ -52,33 +52,48 @@
           <h3 class="font-bold text-2xl md:mt-24 md:mb-5 mt-12 mb-5"> What I Use </h3>
           <div class="mb-6">
             <p class="mb-1 text-gray-200"> HTML5 </p>
-            <div class="h-1 bg-gray-700">
-              <div style="width:90%" class="h-full bg-yellow-400"/>
+            <div class="flex items-center">
+              <img class="w-5 mr-3" src="../assets/skills/html5.svg"/>
+              <div class="h-1 w-full bg-gray-700">
+                <div style="width:90%; background-color: #ff8700" class="h-full"/>
+              </div>
             </div>
           </div>
           <div class="mb-6">
             <p class="mb-1 text-gray-200"> CSS / SASS </p>
-            <div class="h-1 bg-gray-700">
-              <div style="width:90%" class="h-full bg-blue-500"/>
+            <div class="flex items-center">
+              <img class="w-5 mr-3" src="../assets/skills/sass.svg"/>            
+              <div class="h-1 w-full bg-gray-700">
+                <div style="width:90%; background: #aa5884" class="h-full"/>
+              </div>
             </div>
           </div>
           <div class="mb-6">
             <p class="mb-1 text-gray-200"> Tailwind </p>
-            <div class="h-1 bg-gray-700">
-              <div style="width:90%" class="h-full bg-blue-500"/>
+            <div class="flex items-center">
+              <img class="w-5 mr-3" src="../assets/skills/tailwind.png"/>                
+              <div class="h-1 w-full bg-gray-700">
+                <div style="width:90%; background-color: #3facc9" class="h-full"/>
+              </div>
             </div>
           </div>                   
           <div class="mb-6">
             <p class="mb-1 text-gray-200"> Javascript </p>
-            <div class="h-1 bg-gray-700">
-              <div style="width:90%" class="h-full bg-purple-500"/>
+            <div class="flex items-center">
+              <img class="w-5 mr-3" src="../assets/skills/javascript.svg"/>              
+              <div class="h-1 w-full bg-gray-700">
+                <div style="width:90%; background-color: #f7df1d" class="h-full"/>
+              </div>
             </div>
           </div>
           <div class="mb-6">
             <p class="mb-1 text-gray-200"> Vue.js </p>
-            <div class="h-1 bg-gray-700">
-              <div style="width:90%" class="h-full bg-green-400"/>
-            </div>
+            <div class="flex items-center">
+              <img class="w-5 mr-3" src="../assets/skills/vue.svg"/>                
+              <div class="h-1 w-full bg-gray-700">
+                <div style="width:90%" class="h-full bg-green-400"/>
+              </div>
+              </div>
           </div>                            
         </div>
       </div>    
