@@ -55,7 +55,7 @@
             <div class="flex items-center">
               <img class="w-5 mr-3" src="../assets/skills/html5.svg"/>
               <div class="h-1 w-full bg-gray-700">
-                <div style="width:90%; background-color: #ff8700" class="h-full"/>
+                <div style="width:94%; background-color: #ff8700" class="h-full"/>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@
             <div class="flex items-center">
               <img class="w-5 mr-3" src="../assets/skills/tailwind.png"/>                
               <div class="h-1 w-full bg-gray-700">
-                <div style="width:90%; background-color: #3facc9" class="h-full"/>
+                <div style="width:84%; background-color: #3facc9" class="h-full"/>
               </div>
             </div>
           </div>                   
@@ -82,7 +82,7 @@
             <div class="flex items-center">
               <img class="w-5 mr-3" src="../assets/skills/javascript.svg"/>              
               <div class="h-1 w-full bg-gray-700">
-                <div style="width:90%; background-color: #f7df1d" class="h-full"/>
+                <div style="width:75%; background-color: #f7df1d" class="h-full"/>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@
             <div class="flex items-center">
               <img class="w-5 mr-3" src="../assets/skills/vue.svg"/>                
               <div class="h-1 w-full bg-gray-700">
-                <div style="width:90%" class="h-full bg-green-400"/>
+                <div style="width:70%" class="h-full bg-green-400"/>
               </div>
               </div>
           </div>                            
@@ -167,28 +167,27 @@
         </figcaption>
             <div class="bg"/>        
       </figure>
-    </div>   
-    <div class="text-center col-span-12 mt-8 mb-12">
-      <a class="font-semibold mx-auto inline-block px-10 py-3 rounded-full bg-white border-2 border-gray-900 text-gray-900 hover:text-white hover:bg-gray-900 transition-all hover:transition-all cursor-pointer" href="https://www.linkedin.com/in/regan-duthie-683903133/" target="_blank">
-        Check out my LinkedIn
-      </a>
     </div>       
   </div>
   <div class="bg-white w-full py-32 section">
     <div class="container grid grid-cols-12 lg:px-0 md:px-5 px-6">
-      <div class="text-center col-span-12 mb-10">
-        <h2 class="text-gray-900 text-4xl font-bold mb-3"> Contact Me</h2>
-        <p class="text-gray-700"> If you have any questions fill out the form below </p>
+      <div class="text-center col-span-12 mb-6">
+        <h2 class="text-gray-900 text-4xl font-bold mb-3"> Get In Touch</h2>
+        <p class="text-gray-700"> My inbox is always open for new opportunities. </p>
       </div>      
-      <div class="lg:w-5/12 col-span-12 mx-auto">
+      <div class="col-span-12">
           <div class="form">
-            <input v-model="name" :class="$v.name.$error ? 'error': ''" class="form__item" placeholder="Your name" type="text" />
-            <input v-model="email" :class="$v.email.$error ? 'error': ''" class="form__item" placeholder="Your email" type="email" />
-            <textarea v-model="message" :class="$v.message.$error ? 'error': ''" placeholder="Your message" class="form__item py-3 h-48" />
-            <p v-if="$v.$error" class="text-center text-red-500 my-2"> Oops there's a error in the form! </p>
-            <input @click.prevent="submit()" class="mt-5 font-semibold mx-auto block px-10 py-3 rounded-full bg-white border-2 border-gray-900 text-gray-900 hover:text-white hover:bg-gray-900 transition-all hover:transition-all cursor-pointer" value="Submit" type="button">
+            <a href="mailto:reganjduthie@gmail.com" class="w-56 font-semibold mx-auto block px-10 py-3 rounded-full bg-white border-2 border-gray-900 text-gray-900 hover:text-white hover:bg-gray-900 transition-all hover:transition-all cursor-pointer text-center"> Send Me An Email </a>
           </div>
       </div>
+      <div class="col-span-12 my-8">
+          <h4 class="text-center"> OR </h4>
+      </div>      
+      <div class="col-span-12">
+          <div class="form">
+            <a target="_blank" href="https://www.linkedin.com/in/regan-duthie-683903133/" class="w-72 font-semibold mx-auto block px-10 py-3 rounded-full bg-white border-2 border-gray-900 text-gray-900 hover:text-white hover:bg-gray-900 transition-all hover:transition-all cursor-pointer text-center"> Check out my LinkedIn </a>
+          </div>
+      </div>      
     </div>
   </div>
   <div class="bg-black w-full py-8">
