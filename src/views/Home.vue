@@ -141,12 +141,12 @@
       </figure>
     </div>
     <div class="lg:col-span-4 md:col-span-6 col-span-12">
-      <figure class="project-wrapper h-64">
-        <img class="cursor-pointer h-full w-full rounded-xl flex items-center object-cover" src="../assets/images/portfolio/tritansecurity.png" alt="tritan security portfolio"/>
+      <figure style="background-color: #0c1724" class="project-wrapper h-64">
+        <img class="cursor-pointer p-5 h-full w-full rounded-xl flex items-center object-fit" src="../assets/images/portfolio/characters.svg" alt="tritan security portfolio"/>
         <figcaption> 
           <div class="wrapper">
-            <h3 class="text-center text-white font-semibold text-3xl"> Tritan Security</h3>
-            <a class="block mt-3" target="_blank" href="https://www.tritansecurity.co.za/">
+            <h3 class="text-center text-white font-semibold text-3xl"> Characters </h3>
+            <a class="block mt-3" target="_blank" href="https://characters.co.za/">
               <input  value="Check it out" type="button" class="font-semibold mx-auto block px-10 py-3 rounded-full border-2 bg-transparent border-white text-white hover:text-gray-900 hover:bg-white transition-all hover:transition-all cursor-pointer" />
             </a>
           </div>
